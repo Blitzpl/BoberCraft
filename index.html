@@ -5,14 +5,12 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="icon" href="images/logo.png">
-    <meta name="description" content="Free, modern and nice web template for Minecraft server.">
-    <meta name="author" content="Astronawta">
+    <link rel="icon" href="images/Bobercraftlogo.png">
 
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/pages/home.css">
 
-    <title>AzureMine | Home</title>
+    <title>BoberCraft | Home</title>
 </head>
 <body>
     <!--Navbar-->
@@ -21,7 +19,8 @@
             <a href="index.html">
                 <div class="logo">
                     <img src="images/Bobercraftlogo.png" alt="Server logo" class="logo-img">
-                    <h3 class="server-name">Bobercraft</h3>
+                    <h3 style="color: red; margin:0px;">Bober</h3>
+                    <h3 style="color: white;">Craft</h3>
                 </div>
             </a>
 
@@ -31,8 +30,8 @@
         </div>
 
         <div class="links">
-            <a href="#" class="link active">Home</a>
-            <a href="#" class="link">Sklep</a>
+            <a href="index.html" class="link active">Home</a>
+            <a href="shop.html" class="link">Sklep</a>
         </div>
     </div>
 
@@ -43,21 +42,23 @@
             <div class="left">
                 <div class="server-name">
                     <p>Minecraft server survivalowy</p>
-                    <h1 class="minecraft-server-ip">BoberCraft</h1>
+                    <div style="display: flex;">
+                        <h1 style="color: red;">Bober</h1><h1 style="color: white;">Craft</h1>
+                    </div>
                 </div>
                 <p class="server-description">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, consectetur explicabo. Dolor enim inventore minus neque officiis.
                     <br><br>Dołączy i graj ze znajomymi
                 </p>
                 <div class="buttons">
-                    <button class="copy-ip">Skopiuj IP</button>
+                    <button class="copy-ip" onclick="copyToClipboard()">Skopiuj adres serwera</button>
                     <a href="#about"><button class="how-to-join">Pokaż więcej</button></a>
                 </div>
                 <p class="ip-copied">IP was successfully copied!</p>
             </div>
 
             <div class="right">
-                <img src="images/Bobercraftlogo.png" alt="Server logo" class="logo-img logo-img-header">
+                <img src="images/Bobercraftlogo.png" alt="Server logo" class="logo-img logo-img-header" style="border-radius: 15px;">
             </div>
         </div>
     </section>
@@ -108,7 +109,7 @@
     <section id="discord">
         <div class="content">
             <h2 class="section-title">Masz <span>problem</span> lub chcesz z nami pogadać? <br> Dołącz do naszego <span>Discorda!</span></h2>
-            <a href="#" class="discord-link"><button class="join-discord">Dołącz do discorda</button></a>
+            <a href="https://discord.gg/xCHdpjUyuQ" class="discord-link"><button class="join-discord">Dołącz do discorda</button></a>
         </div>
     </section>
 
@@ -171,11 +172,6 @@
     <!--Footer-->
     <footer id="footer">
         <p class="copyright">&copy; 2024 <span class="server-name-footer">BoberCraft</span>. Wszystkie prawa zastrzeżone.</p>
-        <div class="social-links">
-            <a href="#" class="link tiktok-link"><i class="fa-brands fa-tiktok"></i></a>
-            <a href="#" class="link instagram-link"><i class="fa-brands fa-square-instagram"></i></a>
-            <a href="#" class="link discord-link-footer"><i class="fa-brands fa-discord"></i></a>
-        </div>
     </footer>
 </body>
 <script src="js/script.js"></script>
